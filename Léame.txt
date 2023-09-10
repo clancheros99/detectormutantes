@@ -13,4 +13,22 @@ V 1.0.0
 	["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
 	
 ***********************************************************************	
+Ejecución del programa:
+
+•Server
+
+1. Abrir terminal 
+2. Ejecutar el comando cd detectormutantes_server
+3. Dirigirse a la ruta app\controllers
+4. ejecutar el comando node detectorcontroller.js
+
+Nota: El servicio se ejecuta por el puerto 3000 del localhost.
+	  El servicio se puede acceder dedese /api/isMutant 
+
+•Client
 	
+1. Abrir terminal
+2. Ejecutar el comando cd detectormutantes_cliente
+3. Ejecutar el comando ng serve
+
+Nota: El programa se ejecuta sobre el puerto 4200
