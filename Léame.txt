@@ -1,0 +1,16 @@
+Autor: CLancherosr
+Fecha: 10/09/2023
+
+
+***********************************************************************
+V 1.0.0 
+
+-Liberación de prueba técnica
+	•Cliente en Angular
+	•Servidor en Node Js
+	
+-Nota: Para probar se debe ingrear el ADN en el siguiente formato:
+	["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
+	
+***********************************************************************	
+	
