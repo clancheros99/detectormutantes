@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/zombi.png" type="image/png">
+    <title>Verificador de ADN Mutante</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login__container">
+        <div class="top__content">
+          <p>¿Desea saber si su amigo es un Mutante?</p>
+          <h1>Analizador de ADN</h1>
+        </div>
+        <div class="bottom__content">
+      
+            <div class="form__group">
+             
+              <textarea id="ADN" [(ngModel)]="cadenaADN" placeholder="Inserte aquí el ADN" rows="6"></textarea>
+            </div>
+           <br>
+            <button (click)="validarInput(cadenaADN)">Analizar ADN</button>
+            <div *ngIf="isValid">
+                <p class="valid">El ADN es válido.</p>
+            </div>
+            <div *ngIf="!isValid">
+                <p class="invalid">El ADN no es válido.</p>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
